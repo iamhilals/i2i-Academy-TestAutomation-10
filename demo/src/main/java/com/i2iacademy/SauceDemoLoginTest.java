@@ -32,8 +32,8 @@ public class SauceDemoLoginTest {
         } catch (Exception e) {
             System.out.println("Bir hata oluştu: " + e.getMessage());
         } finally {
-           // driver.quit();
-            System.out.println("Tarayıcı kapatıldı.");
+            driver.quit();
+            System.out.println("Kapatıldı.");
         }
     }
 }
